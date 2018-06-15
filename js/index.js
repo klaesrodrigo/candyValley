@@ -2,13 +2,11 @@
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        nav: true,
+        nav: false,
 		items: 1,
 		loop: true,
-		center: true,
-		margin: 0,
-		lazyLoad:true,
-		dots: true
+        dots: true,
+        autoHeight : true
     });
   });
 
