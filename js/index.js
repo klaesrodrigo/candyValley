@@ -1,12 +1,13 @@
 
 
-$(document).ready(function(){
+$(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         nav: false,
-		items: 1,
-		loop: true,
+        items: 1,
+        loop: true,
         dots: true,
-        autoHeight : true
+        autoHeight: true
     });
-  });
+});
+
 
