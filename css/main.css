@@ -77,7 +77,7 @@ h4{
     text-transform: uppercase;
 }
 
-.p90360{
+.p90-360{
     padding: 90px 360px; 
 }
 
@@ -112,8 +112,40 @@ h4{
     margin-bottom: 20px;
 }
 
-.azul{
+.blue{
     color: #012B30;
+}
+
+.white{
+    color: white;
+}
+
+.bggrey{
+    background-color: #e4e6e0;
+}
+
+#quem-somos{
+    padding-bottom: 20px;
+}
+
+.p75-360{
+    padding: 75px 360px; 
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.p75-150{
+    padding: 75px 150px;
+}
+
+.bgblue{
+    background-color: #012B30;
+}
+
+.fsh4{
+    font-size: 3.5em;        
 }
 
 @media (max-width: 768px){
