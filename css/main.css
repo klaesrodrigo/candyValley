@@ -1,5 +1,13 @@
+.fwbold{
+    font-weight: bold;
+}
+
 .mlauto{
     margin-left: auto;
+}
+
+.mrauto{
+    margin-right: auto;
 }
 
 .item{
@@ -13,6 +21,44 @@
     bottom: 0;
     left: calc(50% - 36px);
 
+}
+
+.pleft250{
+    padding-left: 250px; 
+}
+
+.ptop80{
+    padding-top: 80px; 
+}
+
+.ptop10{
+    padding-top: 10px; 
+}
+
+.fsize50{
+    font-size: 2.5em;
+}
+
+.colorb43b26{
+    color: #b43b26
+}
+
+.color908f8f{
+    color: #908f8f
+}
+
+.dinblock{
+    display: inline-block;
+}
+.w80pc{
+    width: 80%; 
+}
+.bgcolorb43b26{
+    background-color: #b43b26
+}
+
+.ttupper{
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px){
