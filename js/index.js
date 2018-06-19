@@ -11,9 +11,9 @@ $(document).ready(function () {
 });
 
 
-$(function () {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+$("a.menu").click(function() {
+    var elemento = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(elemento).offset().top
+    }, 500);
 });
