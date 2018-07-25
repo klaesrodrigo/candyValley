@@ -7,7 +7,6 @@ $(document).ready(function () {
         autoHeight: true
     });
 });
-console.log("Testando: " + $($("#testando")).offset().top)
 
 $("a.menu").click(function () {
     var elemento = $(this).attr('href');
@@ -15,6 +14,11 @@ $("a.menu").click(function () {
         scrollTop: $(elemento).offset().top
     }, 500);
 });
+
+setTimeout(() => {
+    console.log("oi");
+    $("#iframe").prop("hidden", false);
+}, 1000)
 
 let bool = true;
 $(document).scroll(() => {
