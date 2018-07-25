@@ -1,5 +1,10 @@
-body{
-    font-family: 'Raleway';
+@font-face {
+    font-family: gotham;
+    src: url(../font/Keep\ Calm\ Medium\ –\ Personal\ Use/);
+}
+
+body, html{
+    font-family: 'gotham' !important;
     overflow-x: hidden;
 }
 
@@ -139,14 +144,14 @@ a:hover{
 }
 
 #quem-somos{
-    padding-bottom: 20px;
+    padding: 20px 30px;
 }
 
 .p75-360{
     padding: 75px 360px; 
 }
 
-.p90-250{
+#pilares{
     padding: 90px 250px; 
 }
 
@@ -212,8 +217,94 @@ a:hover{
     background-color: black
 }
 
-@media (max-width: 768px){
+.formiga{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.aicenter{
+    align-items: center;
+}
+
+#quem-somos h3{
+    font-size: 4.8em;
+}
+
+#quem-somos .col-md-8{
+    padding: 0 35px;
+}
+
+#quem-somos p{
+    font-size: 1.2em;
+}
+
+#quem-somos{
+    font-size: 95%;
+}
+
+#iframe{
+    height: 700px;
+}
+
+.ptb65{
+    padding: 65px 0;
+}
+
+@media (max-width: 1500px){
+    .formiga{
+        width: 90%;
+    }
+    #pilares{
+        padding: 90px 180px; 
+    }
+}
+
+@media (max-width: 1300px){
+    .formiga{
+        width: 100%;
+    }
+    #quem-somos{
+        font-size: 75%;
+    }
+    #pilares{
+        padding: 90px 100px; 
+    }
+    #quem-somos p{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 970px){
+    #quem-somos{
+        font-size: 65%;
+    }
+    #pilares{
+        padding: 90px 20px; 
+    }
+    #quem-somos h3{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 767px){
     .item{
         height: 300px;
+    }
+    .formiga{
+        display: none;
+    }
+    #pilares{
+        padding: 50px 10px; 
+    }
+    #pilares>div>div{
+        padding: 10px;
+    }
+    #iframe{
+        height: 500px;
+    }
+
+    #quem-somos{
+        padding: 50px;
     }
 }
