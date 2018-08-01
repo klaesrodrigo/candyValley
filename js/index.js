@@ -18,7 +18,7 @@ $("a.menu").click(function () {
 setTimeout(() => {
     console.log("oi");
     $("#iframe").prop("hidden", false);
-}, 1500)
+}, 2000)
 
 let bool = true;
 $(document).scroll(() => {

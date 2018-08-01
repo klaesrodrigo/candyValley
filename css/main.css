@@ -251,6 +251,10 @@ a:hover{
     padding: 65px 0;
 }
 
+.numeros{
+    padding: 50px 20px;
+}
+
 @media (max-width: 1500px){
     .formiga{
         width: 90%;
@@ -291,6 +295,15 @@ a:hover{
     .item{
         height: 300px;
     }
+    
+    #selo{
+        padding: 50px 0;
+    }
+
+    #quem-somos{
+        padding: 50px 10px;
+    } 
+
     .formiga{
         display: none;
     }
@@ -304,7 +317,15 @@ a:hover{
         height: 500px;
     }
 
-    #quem-somos{
-        padding: 50px;
+    #quem-somos p {
+        font-size: 2.3em;
+    }
+
+    #pilares{
+        font-size: 125%;
+    }
+
+    html{
+        font-size:73%;
     }
 }
