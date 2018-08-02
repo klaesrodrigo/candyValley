@@ -1,10 +1,7 @@
-@font-face {
-    font-family: gotham;
-    src: url(../font/Keep\ Calm\ Medium\ –\ Personal\ Use/);
-}
+
 
 body, html{
-    font-family: 'gotham' !important;
+    font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
 
@@ -139,6 +136,10 @@ a:hover{
     color: white;
 }
 
+.bgwhite{
+    background-color: white;
+}
+
 .bggrey{
     background-color: #e4e6e0;
 }
@@ -255,6 +256,14 @@ a:hover{
     padding: 50px 20px;
 }
 
+.responsive{
+    display: none;
+}
+
+.bars{
+    padding: 5px 0px;
+}
+
 @media (max-width: 1500px){
     .formiga{
         width: 90%;
@@ -289,15 +298,27 @@ a:hover{
     #quem-somos h3{
         font-size: 4em;
     }
+
+    .responsive{
+        display: block;
+    }
+
+    .no-responsive{
+        display: none;
+    }
 }
 
 @media (max-width: 767px){
     .item{
         height: 300px;
     }
+
+    h3{
+        font-size: 1.5rem;
+    }
     
     #selo{
-        padding: 50px 0;
+        padding: 50px 30px;
     }
 
     #quem-somos{
@@ -308,7 +329,7 @@ a:hover{
         display: none;
     }
     #pilares{
-        padding: 50px 10px; 
+        padding: 50px 30px; 
     }
     #pilares>div>div{
         padding: 10px;
@@ -318,14 +339,26 @@ a:hover{
     }
 
     #quem-somos p {
-        font-size: 2.3em;
+        font-size: 2em;
+        padding: 10px 0;
     }
 
     #pilares{
         font-size: 125%;
     }
 
+    #parceiros{
+        padding: 0;
+    }
+
+    nav img{
+        width: 75%;
+    }
+
     html{
         font-size:73%;
+    }
+    button.navbar-toggler.bgwhite{
+        padding: 2px 8px;
     }
 }
